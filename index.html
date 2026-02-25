@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oracle Clone | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <script defer src="ai.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <img src="assets/logo.png" class="logo" />
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- MINI WELCOME LINE BEFORE SERVICES -->
+<section class="welcome-mini">
+  <h2>Welcome to MyCloud</h2>
+  <p>Your trusted partner for futuristic cloud and AI innovation.</p>
+</section>
+<!-- SERVICES SECTION -->
+<section class="services">
+  <h2>What We Provide</h2>
+  <p class="subtitle">Explore our powerful cloud, AI, and enterprise solutions</p>
+
+  <div class="service-grid">
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" />
+      <h3>Cloud Infrastructure</h3>
+      <p>High-performance compute, storage & networking for modern workloads.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1829/1829583.png" />
+      <h3>Autonomous Database</h3>
+      <p>Self-driving, self-repairing, self-securing next-gen database technology.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712100.png" />
+      <h3>Artificial Intelligence</h3>
+      <p>Integrate AI to automate processes, improve insights & increase efficiency.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906334.png" />
+      <h3>Business Applications</h3>
+      <p>ERP, HCM, CX & SCM applications for complete business transformation.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/10359/10359268.png" />
+      <h3>Cybersecurity</h3>
+      <p>Protect your enterprise with predictive and automated security solutions.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4323/4323006.png" />
+      <h3>Data & Analytics</h3>
+      <p>Unlock powerful insights with advanced analytics & data platforms.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta">
+  <h2>Start Your Cloud Journey Today</h2>
+  <p>Try our cloud platform free for 30 days with full access to core services.</p>
+  <button>Get Started</button>
+</section>
+  <section class="hero">
+    <h1>Empowering the Future with Cloud & AI</h1>
+    <p>Experience the power of next-generation technology with our Oracle-inspired platform.</p>
+    <button onclick="openAIBox()">Ask our AI</button>
+  </section>
+
+  <div id="ai-box" class="ai-box hidden">
+    <h2>AI Assistant</h2>
+    <div id="ai-chat"></div>
+
+    <input id="user-input" placeholder="Ask something..." />
+    <button onclick="askAI()">Send</button>
+  </div>
+
+</body>
+<footer class="footer">
+  <p>Created by <span>Bhumika Tyagi</span> ⚡</p>
+</footer>
+</html>
