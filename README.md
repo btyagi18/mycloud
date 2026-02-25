@@ -43,18 +43,7 @@ This project is built entirely using **HTML, CSS, and JavaScript**, featuring pr
 | **JavaScript** | Animations, AI chat, particle engine |
 
 ---
-## 📁 Project Structure
-mycloud/
-│── index.html
-│── about.html
-│── contact.html
-│── style.css
-│── script.js
-│── ai.js
-│── assets/
-│ └── logo.png
 
----
 ## Screenshots
 
 <img width="1860" height="957" alt="Screenshot 2026-02-25 151813" src="https://github.com/user-attachments/assets/2a08c523-47c3-4128-afb7-a702f7ac9b21" />
